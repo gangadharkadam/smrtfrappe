@@ -104,7 +104,6 @@ class WebsiteGenerator(Document):
 			"docname": self.name,
 			"page_name": self.get_page_name(),
 			"controller": get_module_name(self.doctype, self.meta.module),
-			"template": self.controller_module.template,
 			"lastmod": lastmod,
 			"parent_website_route": self.get_parent_website_route(),
 			"page_title": self.get_page_title()
